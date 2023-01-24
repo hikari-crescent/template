@@ -14,5 +14,5 @@ class Model:
     async def on_start(self, _: hikari.StartedEvent) -> None:
         self._session = aiohttp.ClientSession()
 
-    async def on_stop(self, _: hikari.StoppedEvent):
+    async def on_stop(self, _: hikari.StoppedEvent) -> None:
         await self.session.close()
