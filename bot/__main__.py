@@ -1,10 +1,14 @@
-import hikari
+import os
+
 import crescent
+import dotenv
+import hikari
 
 from bot.model import Model
 
+dotenv.load_dotenv()
 
-bot = hikari.GatewayBot("1234")
+bot = hikari.GatewayBot(os.environ["TOKEN"])
 
 model = Model()
 

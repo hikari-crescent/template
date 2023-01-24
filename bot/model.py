@@ -1,5 +1,5 @@
-import hikari
 import aiohttp
+import hikari
 
 
 class Model:

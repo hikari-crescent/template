@@ -1,1 +1,3 @@
-git+https://github.com/magpie-dev/hikari-crescent.git
+hikari
+git+https://github.com/lunarmagpie/hikari-crescent.git@model
+python-dotenv
